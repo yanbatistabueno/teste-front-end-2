@@ -1,0 +1,77 @@
+main .hero-card {
+  color: white;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  gap: 60px;
+  position: relative;
+}
+
+main .hero-card .text span,
+h1 {
+  text-transform: uppercase;
+}
+
+main .hero-card .text h1 {
+  font-size: 62px;
+}
+
+main .hero-card span {
+  color: #f9ac54;
+  font-weight: 700;
+}
+
+main .hero-card img {
+  max-width: 300px;
+}
+
+main .text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+main .text a {
+  background-color: #f9ac54;
+  padding: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  max-width: 130px;
+}
+
+main .text a:hover {
+  background-color: #d79447;
+}
+
+.text h1 span {
+  color: #1f2125;
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
+}
+
+.hero-img-container p {
+  position: absolute;
+  z-index: -1;
+  text-align: center;
+}
+
+.hero-img-container .background-o {
+  color: #d7944725;
+  right: 20px;
+  top: -150px;
+  font-size: 462px;
+}
+
+.hero-img-container .background-fit {
+  /* bottom: clamp(-50px, -20vh, -30vh);
+    left: clamp(-18vw, -4vw, -450px); */
+  right: 240px;
+  bottom: -50px;
+  /* font-size: min(7vw,142px); */
+  font-size: 120px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.027);
+}

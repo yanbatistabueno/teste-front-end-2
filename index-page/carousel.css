@@ -1,0 +1,93 @@
+.carousel {
+  color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin-top: 60px;
+}
+
+.navegation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.navegation h2 {
+  font-size: 32px;
+}
+
+.carousel .items {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.carousel .items .item {
+  border: 2px solid transparent;
+  padding: 15px;
+  border-radius: 15px;
+  gap: 15px;
+  display: grid;
+  background-color: #111317;
+  max-width: 290px;
+  width: 25%;
+}
+
+.carousel .items .item:hover {
+  border-color: #f9ac54;
+  background-color: #35373b;
+}
+
+.carousel .items .item img {
+  width: 40px;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: #f9ac54;
+}
+
+.carousel .items .item a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.carousel .items .item a img {
+  background-color: transparent;
+  width: 25px;
+}
+
+.carousel .items .item a:hover {
+  color: #f9ac54;
+}
+
+.carousel .items .item a:hover img {
+  content: url("https://img.icons8.com/?size=100&id=86088&format=png&color=F9AC54");
+}
+
+.carousel .navegation button {
+  background-color: transparent;
+  border: solid;
+  border-radius: 20px;
+  border-color: white;
+  color: white;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.navegation .left {
+  transform: scale(-1);
+  margin-right: 20px;
+}
+
+.navegation button:hover img {
+  content: url("https://img.icons8.com/?size=100&id=86088&format=png&color=F9AC54");
+}
+
+.navegation button:hover {
+  border-color: #f9ac54;
+}

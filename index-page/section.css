@@ -1,0 +1,58 @@
+section {
+  display: grid;
+  grid-template-columns: 1fr 0.7fr;
+  gap: 20px;
+  margin-top: 60px;
+  color: white;
+}
+
+section .section-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+section h1 {
+  font-size: 36px;
+}
+
+section .section-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+section .section-img-container {
+  position: relative;
+}
+
+section .section-img-container::after {
+  content: "";
+  width: 300px;
+  aspect-ratio: 1/2;
+  background-image: url("../teste_front_end_2/teste_front_end_2/class-2.jpg");
+  position: absolute;
+  top: 250px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 10px;
+  left: -80px;
+}
+
+section .section-img-container img {
+  border-radius: 10px;
+}
+
+section .section-text a {
+  background-color: #f9ac54;
+  padding: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  max-width: 160px;
+}
+
+section .section-text a:hover {
+  background-color: #d79447;
+}

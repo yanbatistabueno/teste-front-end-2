@@ -1,0 +1,51 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+  gap: min(2vw, 50px);
+}
+
+header img {
+  max-width: 170px;
+  width: 12vw;
+}
+
+header nav {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+header nav a::after {
+  content: "";
+  height: 2px;
+  background-color: #f9ac54;
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 30px;
+  right: 100%;
+}
+
+header nav a:hover::after {
+  right: 50%;
+}
+
+header .join {
+  background-color: #f9ac54;
+  padding: 15px 30px;
+  border-radius: 5px;
+
+  text-align: center;
+}
+
+header .join:hover {
+  background-color: #d79447;
+}

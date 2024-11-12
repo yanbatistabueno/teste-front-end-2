@@ -1,0 +1,79 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: white;
+  background: linear-gradient(to bottom, #111317, #1f2125);
+  padding: 40px;
+  margin-top: 20px;
+}
+
+.footer-container {
+  width: 73%;
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 1fr 1fr;
+  gap: 30px;
+  justify-items: center;
+}
+
+.footer-nav-container nav {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer-nav-container a {
+  text-decoration: none;
+  color: white;
+  width: max-content;
+}
+
+.footer-nav-container a:hover {
+  color: #f9ac54;
+}
+
+.footer-nav-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-container .social-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer-container .social-nav .logo {
+  width: 120px;
+}
+
+.footer-container .social-nav-container {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-container .social-nav-container a {
+  width: 40px;
+  background-color: transparent;
+  padding: 7px;
+  border-radius: 20px;
+  border: 2px solid #f9ac54;
+}
+
+.footer-container .social-nav-container a:hover {
+  background-color: #f9ac54;
+}
+
+.footer-container .social-nav-container a:hover .twitter {
+  content: url("https://img.icons8.com/?size=100&id=8824&format=png&color=FFFFFF");
+}
+
+.footer-container .social-nav-container a:hover .insta {
+  content: url("https://img.icons8.com/?size=100&id=32309&format=png&color=FFFFFF");
+}
+
+.footer-container .social-nav-container a:hover .face {
+  content: url("https://img.icons8.com/?size=100&id=118467&format=png&color=FFFFFF");
+}

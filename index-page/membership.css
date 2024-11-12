@@ -1,0 +1,51 @@
+.membership-container {
+  display: flex;
+  margin-top: 160px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 20px;
+  position: relative;
+}
+
+.membership-header {
+  text-align: center;
+  display: grid;
+  gap: 20px;
+}
+
+.membership-background {
+  border-radius: 10px;
+}
+
+.membership-item-container {
+  display: flex;
+  gap: 20px;
+  background-color: #1f2125;
+  padding: 15px;
+  border-radius: 10px;
+  width: 95%;
+  position: absolute;
+  bottom: -100px;
+  padding: 20px;
+}
+
+.membership-item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.membership-container .membership-item img {
+  height: 50px;
+  width: 50px;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: #f9ac54;
+}
+
+.membership-item-text {
+  display: grid;
+  gap: 10px;
+}
